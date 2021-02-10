@@ -19,3 +19,13 @@ print(width * height)
 
 print(3*3.75 / 1.5) #7.5
 print(7.0 / 2) #3.5
+
+tax = 12.5 / 100
+price = 100.50
+
+_ = price * tax
+print(_)
+_ = price + _
+print(_)
+print(round(_, 2))
+
