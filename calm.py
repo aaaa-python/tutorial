@@ -29,3 +29,43 @@ _ = price + _
 print(_)
 print(round(_, 2))
 
+print('spam eggs')
+print('doesn\'t')
+print("doesn't")
+print('"Yes", he said.')
+print('\"Yes\", he said.')
+print('"Isn\'t," she said.')
+a = '"Isn\'t," she said.'
+print(a)
+
+print('Firstline.\nSecond line.')
+
+print(r'C:\some\name')
+
+print("""\
+    Usage: thingy [OPTIONS]
+        -h
+        -H hostname
+    """)\
+
+print(3 * 'un' + 'ium')
+print('Py' 'thon')
+
+text = ('今日はいい天気ですね'
+        '明日も元気です。')
+print(text)
+
+prefix = 'Py'
+print(prefix + 'thon')
+print(prefix[0])
+print(prefix[1])
+print(prefix[-1])
+print(prefix[0:2])
+print(prefix[1:2])
+print(prefix[:2])
+print(prefix[1:])
+print(prefix[0:])
+print(prefix[-2:])
+prefix2 = prefix[:2] +'py'
+print(prefix2)
+print(len(prefix2))
